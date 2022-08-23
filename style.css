@@ -99,6 +99,13 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+html, body{
+    
+    direction: rtl;
+    text-align: right; 
+
+}
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -161,6 +168,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+    text-align: center;
 }
 
 abbr[title] {
@@ -2885,6 +2893,8 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+    margin: 12px;
+    text-align: center;
 }
 
 .btn-secondary {
@@ -4234,6 +4244,7 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
+    text-align: center;
 }
 
 .card-subtitle {
@@ -4258,6 +4269,7 @@ textarea.form-control-lg {
 }
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+    text-align: center;
 }
 
 .card-footer {
